@@ -1,0 +1,19 @@
+.parent{
+   height: 100svh;
+   width: 100%;
+   display: flex; 
+   position: relative;
+}
+.dawn{
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    background-color: yellow;
+}
+.dusk{
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    top: 50%;
+    background-color: black;
+}

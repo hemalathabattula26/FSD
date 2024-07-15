@@ -1,0 +1,36 @@
+.parent{
+    /* display: wrap; */
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    /* position: relative; */
+    /* justify-content: space-evenly; */
+    gap: 20px;
+
+}
+.r1{
+    height: 350px;
+    width: 270px;
+    box-shadow: 2px 2px 3px 3px grey;
+    border-radius: 20px;
+    /* margin: 50px; */
+    position: relative;
+}
+.strip{
+    height: 80px;
+    width: 10px;
+    background-color: black;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+.proimg{
+    height: 80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("/67354.jpg");
+}
+/* .proname{
+
+} */

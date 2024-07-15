@@ -1,0 +1,22 @@
+body{
+    height: 100svh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blo{
+    height: 100px;
+    width: 100px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 32px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 2px 2px black;
+}
+.col{
+    font-size: 52px;
+}

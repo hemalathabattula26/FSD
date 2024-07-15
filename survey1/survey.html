@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Election Survey Form</title>
+        <script src="survey.js"></script>
+    </head>
+    <body>
+        <form>
+            <h1>Election Survey Form</h1>
+            <label>Name :</label>
+            <input type="text" placeholder="Enter Your name" name="peru" value="" onchange="fun(event)"/><br><br>
+            <label>Age : </label>
+            <input type="number" placeholder="Enter Your Age" name="age" onchange="fun(event)"/><br><br>
+            <label>Gender : </label>
+            <input type="radio" name="gender"/>
+            <label>Male</label>
+            <input type="radio" name="gender"/>
+            <label>Female</label>
+            <input type="radio" name="gender"/>
+            <label>Trans</label>
+            <input type="radio" name="gender"/>
+            <label>Lesbian</label><br><br>
+            <label>Election Booth Number : </label>
+            <input type="number" name="ebn" onchange="fun(event)"/><br><br>
+            <label>Feedback : </label>
+            <textarea></textarea><br><br>
+            <label>Mobile Number : </label>
+            <input type="number" name="mbn" onchange="fun(event)"/><br><br>
+            <label>Date and Time</label>
+            <input type="datetime-local"/><br><br>
+            <button type="reset">Reset</button><br><br>
+            <button type="submit" onclick="subb(event)">submit</button>
+        </form>
+    </body>
+</html>

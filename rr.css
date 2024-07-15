@@ -1,0 +1,81 @@
+.label{
+    height: 350px;
+    width: 200px;
+    background-color: #cccccc;
+    border: 10px groove #cccccc;
+    /* border-style: groove; */
+    border-radius: 20px;
+    /* border-width: 10px; */
+    position: relative;
+}
+.in{
+    height: 340px;
+    width: 189px;
+    border: 5px solid black;
+    border-radius: 20px;
+    position: relative;
+    /* display: flex; */
+}
+.edge{
+    height: 230px;
+    width: 189px;
+    border-top: 5px solid black;
+    position: absolute;
+    /* top: 50px; */
+    border-bottom: 5px solid black;
+    bottom: 50px;
+    /* font-size: 150px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
+
+}
+.rolls{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    /* top: 0px; */
+    left: 20px;
+    font-size: 50px;
+    /* bottom: 10px; */
+}
+.royce{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    font-size: 50px;
+
+}
+.r{
+    height: 100%;
+    width: 100%;
+    /* height:fit-content;
+    width:fit-content; */
+    font-weight: 200;
+    position: absolute;
+    /* top: 0px; */
+    left: 5px;
+    bottom: 10px;
+    font-size:200px;
+    /* -webkit-text-stroke: 2px; */
+    -webkit-text-stroke-color: #cccccc;
+    -webkit-text-stroke-width: 2px;
+}
+.rr{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    /* bottom: 0px; */
+    left: 50px;
+    font-size: 200px;
+    -webkit-text-stroke-color: #cccccc;
+    -webkit-text-stroke-width: 2px;
+    /* font-family: Ꮢ; */
+    font-weight: 0px;
+    /* top: 0px; */
+    /* left: 35px; */
+}

@@ -1,0 +1,115 @@
+.a{
+	font-style: italic;
+	color: gray;
+	float: left;
+}
+.aa{
+	background-image: url('imgs/on.avif');
+	height: 500px;
+	width: 1100px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+.D1{
+	font-size: 46px;
+	font-weight: bold;
+	font-style: italic;
+	color: white;
+	text-align: center;
+}
+.b{
+	height: 500px;
+	width: 1100px;
+	background-size: cover;
+	background-color: grey;
+}
+.p1{
+     font-size: 50px;
+     text-align: center;
+     font-weight: bold;
+}
+.p2{
+	font-size: 22px;
+	text-align: center;
+}
+.c{
+	background-color: white;
+}
+.ph{
+	text-align: center;
+	font-weight: bold;
+}
+.pb{
+	text-align: center;
+}
+.a2{
+	height: 700px;
+	width: 1100px;
+	background-size: cover;
+	background-color: white;
+}
+.button {
+  background-color: darkblue;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+.circle {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background: darkblue;
+}
+.rect{
+    width: 1000px;
+    height: 200px;
+    background: lightgray;
+}
+.rect1{
+	width:800px;
+	height:150px;
+	background: white;
+}
+.cir{
+	border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background: darkblue;
+    float: center;
+}
+.h{
+	font-style: inherit;
+	color: black;
+	font-size: 36px;
+}
+.a3{
+	height: 700px;
+	width: 1100px;
+	background-size: cover;
+	background-color: skyblue;
+}
+.square{
+  border-radius: 25px;
+  background: darkblue;
+  padding: 20px; 
+  width: 500px;
+  height: 400px;  
+}
+.h1{
+	font-style: inherit;
+	color: white;
+	font-size: 36px;
+	text-align: left;
+}
+.p3{
+     font-size: 15px;
+     text-align: left;
+     color: white;
+}

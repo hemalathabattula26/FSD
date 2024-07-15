@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.head{
+    height: 45px;
+    width: 70%;
+    /* border: 2px solid black; */
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+}
+.logo{
+    font-style: italic;
+    font-size: 30px;
+    color: #d1c9c9;
+}
+.list{
+    position: absolute;
+    left: 95%;
+}
+.lap{
+    background-image: url("lap.jpg");
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    /* margin: 10px; */
+}

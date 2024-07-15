@@ -1,0 +1,78 @@
+.p{
+	height: 100svh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.c{
+	height: 500px;
+	width: 700px;
+	position: relative;
+}
+.night{ 
+	animation: animation1 15s ; 
+	width:100%; height:50%; 
+	background-image: url("E:/DR/tasks/night.jpg");
+    background-size: 100% 100%;}
+ .day{ 
+ 	animation: animation2 15s ; 
+ 	width:100%;
+ 	 height:50%;
+    background-image: url("E:/DR/tasks/day.jpg");
+    background-size: 100% 100%; 
+}
+.sm{
+	height: 100%;
+	width: 10%;
+	position: absolute;
+	top: 0%;
+	left: 40%;
+	animation-name:anime;
+	animation-duration: 20s;
+	/*animation-iteration-count: infinite; */
+}
+.moon{
+
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	background-image: url("E:/DR/tasks/moon.png");
+	background-size: 100% 100%;
+}
+.sun{
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	position: absolute;
+	top: -10%;
+	left: 50%;
+	top:80%;
+	background-image: url("E:/DR/tasks/sun.png");
+	background-size: 100% 100%;
+}
+@keyframes anime{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+@keyframes animation1{
+   0%,100%  {background-image: url("E:/DR/tasks/night.jpg");
+            background-size: 100% 100%;}
+   15% {background-image: url("E:/DR/tasks/night.jpg");
+background-size: 100% 100%;}
+   60% {background-image: url("E:/DR/tasks/day.jpg");background-size: 100% 100%;}
+   65% {background-image: url("E:/DR/tasks/night.jpg");background-size: 100% 100%;}
+}
+@keyframes animation2{
+   0%,100%  {background-image: url("E:/DR/tasks/day.jpg");
+            background-size: 100% 100%;}
+   20% {background-image: url("E:/DR/tasks/day.jpg");
+background-size: 100% 100%;}
+   50% {background-image: url("E:/DR/tasks/night.jpg");background-size: 100% 100%;}
+   85% {background-image: url("E:/DR/tasks/day.jpg");background-size: 100% 100%;}
+}

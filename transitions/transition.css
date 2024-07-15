@@ -1,0 +1,16 @@
+.div{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    /* background: linear-gradient(red, black,blue,green,gold); */
+    background-color: black;
+    transition: height 3s,width 3s,background 3s;
+
+}
+.div:hover{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: red;
+    /* background: linear-gradient(gold,green,blue,black,red); */
+}

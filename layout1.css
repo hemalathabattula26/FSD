@@ -1,0 +1,364 @@
+.head{
+    /* border: 2px solid black; */
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    /* position: relative; */
+    box-shadow: 0px 3px 3px 1px grey;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.head1{
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.preview{
+    height: 25px;
+    width: 30%;
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    /* position: absolute; */
+    /* top: 10px; */
+    /* left: 28%; */
+    box-shadow: 2px 2px 5px 3px greenyellow;
+    margin: 10px;
+}
+.html{
+    height: 24px;
+    width: 30%;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    /* position: absolute; */
+    /* top: 10px; */
+    /* left: 40%; */
+    box-shadow: 2px 2px 5px 3px skyblue;
+    margin: 10px;
+}
+.css{
+    left: 52%;
+}
+.download{
+    left: 64%;
+}
+.action{
+    /* left: 610px;
+    background-color: rgb(224, 97, 97); */
+    height: 24px;
+    width: 30%;
+    margin: 10px;
+    background-color: rgb(224, 97, 97);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    position: absolute;
+    /* top: 10px; */
+    /* left: 76%; */
+    position: relative;
+    box-shadow: 2px 2px 5px 3px rgb(224, 97, 97);
+}
+/* .act{
+    height: 24px;
+    width: 70px;
+    background-color: grey;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    position: absolute;
+    top: 70px;
+    left: 610px;
+    box-shadow: 2px 2px 5px 3px grey;
+    display: none;
+}
+.action:hover .act{
+    display: block;
+} */
+.main{
+    width: 90%;
+    height: 1000px;
+    position: relative;
+    top: 90px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+ .profile{
+    height: 500px;
+    width: 38%;
+    position: absolute;
+    /* display: flex; */
+    /* justify-content: center; */
+    top: 0px;
+    left: 10px;
+    box-shadow: 2px 2px 5px 3px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border-radius: 30px;
+    justify-content: space-between;
+}
+.pic{
+    height: 15%;
+    width: 15%;
+    /* position: absolute;  */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    /* left: 35%; */
+    /* top: 10px; */
+    border-radius: 50px;
+    /* border: 2px solid black; */
+}
+.name{
+    /* position: absolute; */
+    /* top: 80px; */
+    font-size: 20px;
+    height: 10px;
+}
+.fsd{
+    /* position: absolute; */
+    /* top: 120px; */
+    height: 10px;
+    color: grey;
+}
+.thub{
+    /* position: absolute; */
+    /* top: 140px; */
+    color: grey;
+    height: 10px;
+}
+.conn{
+    display: flex;
+    /* display: wrap; */
+}
+.follow{
+    position: absolute;
+    width: 25%;
+    height: 25px;
+    /* top: 190px; */
+    display: flex;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    left: 20%;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 0px 0px blue;
+}
+.message{
+    height: 20px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    position: absolute;
+    /* top: 190px; */
+    left: 50%;
+    color: skyblue;
+    border: 3px solid skyblue;
+    /* box-shadow: 2px 2px 5px 3px skyblue; */
+}
+.profile1{
+    height: 50%;
+    width: 100%;
+}
+.links{
+    height: 50%;
+    width: 100%;
+
+}
+.we{
+    /* position: absolute; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.web{
+    height: 30px;
+    width: 90%;
+    /* position: absolute; */
+    /* top: 230px; */
+    border-top: 2px solid rgb(222, 215, 215);
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    /* top: 5px; */
+}
+.web1{
+    font-size: 15px;
+    color: grey;
+    /* top: 220px; */
+    /* left: 100px; */
+    right: 5%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    /* justify-content: end; */
+}
+/* .git{
+    top: 270px;   
+}
+.twi{
+    top: 310px;
+}
+.ins{
+    top: 350px;
+}
+.fb{
+    top: 390px;
+} */
+.details{
+    height: 300px;
+    width: 58%;
+    left: 42%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    /* margin: 30px; */
+    /* border: 3px solid pink ; */
+    box-shadow: 2px 2px 5px 3px grey;
+    border-radius: 30px;
+}
+.name1{
+    height: 30px;
+    width: 90%;
+    font-size: 15px;
+    position: absolute;
+    /* right: 10px; */
+    top: 10px;
+    display: flex;
+    align-items: center;
+    /* color: grey; */
+}
+.name2{
+    /* width: 8`0px; */
+    font-size: 15px;
+    color: grey;
+    position: absolute;
+    right: 1%;
+    display: flex;
+    align-items: center;
+}
+.email{
+    top: 50px;
+}
+.ph{
+    top: 90px;
+}
+.mo{
+    top: 130px;
+}
+.add{
+    top: 170px;
+}
+.submit{
+    position: absolute;
+    top: 230px;
+    background-color: blue;
+    box-shadow: 2px 2px 2px 2px blue;
+    border: blue;
+    color: white;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    /* text-decoration: none; */
+}
+.project{
+    height: 400px;
+    width: 58%;
+    left: 42%;
+    box-shadow: 2px 2px 5px 3px grey;
+    position: absolute;
+    top: 320px;
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+}
+.status{
+    font-size: 30px;
+    position: absolute;
+    left: 10px;
+}
+.web2{
+    position: absolute;
+    top: 70px;
+    left: 10px;
+}
+.bar1{
+    position: absolute;
+    height: 4px;
+    top: 120px;
+    width: 95%;
+    background-color: rgb(224, 216, 216);
+    border-radius: 10px;
+}
+.range1{
+    position: absolute;
+    left: 0px;
+    height: 4px;
+    width: 60%;
+    border-radius: 53px;
+    background-color: red;
+}
+.markup{
+    top: 130px;
+}
+.bar2{
+    top: 180px;
+}
+.range2{
+    width: 30%;
+    background-color: blue;
+}
+.page{
+    top: 190px;
+}
+.bar3{
+    top: 240px;
+}
+.range3{
+    width: 70%;
+    background-color: rgb(229, 189, 8);
+}
+.temp{
+    top: 250px;
+}
+.bar4{
+    top: 300px;
+}
+.range4{
+    width: 90%;
+    background-color: green;
+}
+.api{
+    top: 310px;
+}
+.bar5{
+    top: 360px;
+}
+.range5{
+    width: 40%;
+    background-color: black;
+}
