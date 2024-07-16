@@ -4,6 +4,7 @@ var b = 0;
 var c = 0;
 var d = 0;
 var st =0;
+var cdn = 0;
 document.getElementsByClassName("hrs")[0].innerHTML = "0"+a;
 document.getElementsByClassName("mins")[0].innerHTML = "0"+b;
 document.getElementsByClassName("secs")[0].innerHTML = "0"+c;
@@ -41,9 +42,9 @@ function timer(){
 var start = document.getElementsByClassName("start")[0];
 // setInterval(timer,1000);
 function Start(timer){
-    if(st==0){
+    if(st==0 & cdn == 0){
         k = setInterval(timer,1000);
-        st=1;
+        st = 1;
     }
 }
 var stop = document.getElementsByClassName("stop")[0];
@@ -61,5 +62,9 @@ function Reset(){
     document.getElementsByClassName("secs")[0].innerHTML = "0"+c;
 }
 function countdown(){
+    if(st == 1 & cdn == 0){
+        cdn = 1;
+        d = window.prompt("Set Timer");
+    }
     
 }
