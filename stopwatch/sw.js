@@ -53,8 +53,10 @@ function Start(timer){
 }
 var stop = document.getElementsByClassName("stop")[0];
 function Stop(){
-    clearInterval(k);
-    st=0;
+    if(st == 1 || cdn == 0){
+        clearInterval(k);
+        st=0;
+    }
 }
 // var add = setInterval(timer,1000);
 function Reset(){
@@ -64,6 +66,7 @@ function Reset(){
     document.getElementsByClassName("hrs")[0].innerHTML = "0"+a;
     document.getElementsByClassName("mins")[0].innerHTML = "0"+b;
     document.getElementsByClassName("secs")[0].innerHTML = "0"+c;
+    Stop();
 }
 function countdown(){
     if(st == 0 & cdn == 0){
