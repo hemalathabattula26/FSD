@@ -66,5 +66,5 @@ function countdown(){
         cdn = 1;
         d = window.prompt("Set Timer");
     }
-    
+    p = d/10;
 }
