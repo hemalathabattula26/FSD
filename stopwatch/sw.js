@@ -67,4 +67,6 @@ function countdown(){
         d = window.prompt("Set Timer");
     }
     p = d/10;
+    q = d%10;
+
 }
