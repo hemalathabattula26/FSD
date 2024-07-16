@@ -46,6 +46,10 @@ function Start(timer){
         k = setInterval(timer,1000);
         st = 1;
     }
+    else {
+        k = setInterval(count,1000);
+        cdn = 0;
+    }
 }
 var stop = document.getElementsByClassName("stop")[0];
 function Stop(){
@@ -62,11 +66,61 @@ function Reset(){
     document.getElementsByClassName("secs")[0].innerHTML = "0"+c;
 }
 function countdown(){
-    if(st == 1 & cdn == 0){
+    if(st == 0 & cdn == 0){
         cdn = 1;
         d = window.prompt("Set Timer");
     }
-    p = d/10;
-    q = d%10;
-
+    p = parseInt(d / 10);
+    q = parseInt(d % 10);
+    r = 0;
+    if(p<10){
+        document.getElementsByClassName("hrs")[0].innerHTML = "0"+p;
+    }
+    else{
+        document.getElementsByClassName("hrs")[0].innerHTML = p;
+    }
+    if(q<10){
+        document.getElementsByClassName("mins")[0].innerHTML = "0"+q;
+        }
+    else{
+        document.getElementsByClassName("mins")[0].innerHTML = q;
+    }
+    if(r<10){
+        document.getElementsByClassName("secs")[0].innerHTML = "0"+r;
+        }
+    else{
+        document.getElementsByClassName("secs")[0].innerHTML = r;
+    }  
+}
+function count(){
+    if(r == 0 & q!=0){
+        r = 59;
+        q -= 1;
+    }
+    if(q == 0 & p != 0){
+        q == 59;
+        p -=1;
+    }
+    if(p == 0 & q == 0 & r == 0){
+        clearInterval(k);
+    }
+    if(p<10){
+        document.getElementsByClassName("hrs")[0].innerHTML = "0"+p;
+    }
+    else{
+        document.getElementsByClassName("hrs")[0].innerHTML = p;
+    }
+    if(q<10){
+        document.getElementsByClassName("mins")[0].innerHTML = "0"+q;
+        }
+    else{
+        document.getElementsByClassName("mins")[0].innerHTML = q;
+    }
+    if(r<10){
+        document.getElementsByClassName("secs")[0].innerHTML = "0"+r;
+        }
+    else{
+        document.getElementsByClassName("secs")[0].innerHTML = r;
+    }
+    r -=1;
 }
